@@ -10,4 +10,4 @@ class HelloWorld(Resource):
 
 api.add_resource(HelloWorld, '/')
 
-app.run()
+app.run(host='0.0.0.0')
