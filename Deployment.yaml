@@ -6,7 +6,7 @@ spec:
   template:
     metadata:
       labels:
-        app: k8-the-straightforward-way
+        name: k8-the-straightforward-way
     spec:
       containers:
         - name: k8-the-straightforward-way
