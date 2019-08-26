@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: k8-the-straightforward-way
+spec:
+  template:
+    metadata:
+      labels:
+        app: k8-the-straightforward-way
+    spec:
+      containers:
+        - name: k8-the-straightforward-way
+          image: k8-the-straightforward-way:1
+          ports:
+            - name: http-port
+              containerPort: 5000
